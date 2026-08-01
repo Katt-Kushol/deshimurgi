@@ -1,34 +1,102 @@
-<style>
-
-body
-{
-		font-family: sans-serif;
-		font-size: 1.1em;
-		line-height: 1.1em;
+body{
+  font: 15px/1.5 Tiro-Bangla, Arial, sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: #f4f4f4;
 }
 
-header
-{	
-		left: 200px;
-		background-color: black;
-		color: white;
-		padding: 3px;
-		text-align: center;
-		text-transform: uppercase;
+/* global */
+.container{
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
 }
 
-nav 
-{
-	position: absolute;
-	top: 100px;
-	bottom: 100px; /* Ensures it stretches to the bottom of the html container */
-	left: 8px;
-	width: 120px; /* Adjust as needed */
-	background: #f0f0f0;
-	padding: 5px;
-	font-size: 16pt;
-	line-height: 2em;
+ul{
+  margin: 0;
+  padding: 0;
 }
+
+.button_1{
+  height: 34px;
+  background: #e8491d;
+  border: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #ffffff;
+}
+
+.dark{
+  padding: 15px;
+  background: #35424a;
+  color: #ffffff;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* header */
+header{
+  background-color: #35424a;
+  color: #ffffff;
+  padding-top: 30px;
+  min-height: 70px;
+  border-bottom: #e8491d 3px solid;
+}
+
+header a{
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+header li{
+  float: left;
+  display: inline;
+  padding: 0 20px 0 20px;
+}
+
+header #branding{
+  float: left;
+}
+
+header #branding h1{
+  margin: 0;
+}
+
+header nav{
+  float: right;
+  margin-top: 10px;
+}
+
+header .highlight, header .current a{
+  color: #e8491d;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+header a:hover{
+  color: #cccccc;
+  font-weight: bold;
+}
+
+/* boxes */
+#boxes{
+	margin-top: 10px;
+}
+
+#boxes .box{
+  float: left;
+  text-align: center;
+	width: 40%;
+  padding: 10px;
+}
+
+
+#boxes .box img{
+	width: 95%;
+}
+
 
 section
 {
