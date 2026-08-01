@@ -25,4 +25,8 @@ p {text-align: center;}
   	max-width: 50%; /* Prevents the image from overflowing smaller screens */
   	height: 25px;
 }
+footer
+{
+	text-align: center
+}
 </style>
