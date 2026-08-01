@@ -7,6 +7,12 @@ body
 		line-height: 1.1em;
 }
 
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
 header
 {	
 		background-color: black;
@@ -16,10 +22,43 @@ header
 		text-transform: uppercase;
 }
 
+.main-wrapper {
+  display: flex;
+  flex: 1; 
+}
+
+nav 
+{
+	position: absolute;
+	top: 100px;
+	bottom: 70px; /* Ensures it stretches to the bottom of the html container */
+	left: 8px;
+	width: 120px; /* Adjust as needed */
+	background: #f0f0f0;
+	padding: 5px;
+	font-size: 16pt;
+	line-height: 2em;
+}
+
+main {
+  flex: 1; /* Expands to fill remaining width */
+  padding: 20px;
+}
+
+
 section
 {
 		padding: 10px;
+		max-width: 80%;
 		text-align: center;
+}
+
+.right-section
+{
+		padding: 10px;
+		max-width: 80%;
+		text-align: left;
+		float: right;
 }
 
 .center-image {
@@ -41,6 +80,12 @@ section
   	margin-right: auto;
   	max-width: 50%; /* Prevents the image from overflowing smaller screens */
   	height: 25px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 footer
