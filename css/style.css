@@ -214,6 +214,10 @@ footer{
     width:100%;
   }
 
+  .container{
+    width: 95%;
+  }
+
   header{
     padding-bottom: 20px;
   }
