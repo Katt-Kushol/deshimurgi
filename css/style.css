@@ -1,0 +1,232 @@
+body{
+  font: 15px/1.5 Tiro-Bangla, Arial, sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: #f4f4f4;
+}
+
+/* global */
+.container{
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+}
+
+.button_1{
+  height: 34px;
+  background: #e8491d;
+  border: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #ffffff;
+}
+
+.dark{
+  padding: 15px;
+  background: #35424a;
+  color: #ffffff;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.highlight{
+  color: #5EE9B5;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* header */
+header{
+  background-color: #35424a;
+  color: #ffffff;
+  padding-top: 30px;
+  min-height: 70px;
+  border-bottom: #e8491d 3px solid;
+}
+
+header a{
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+header li{
+  float: left;
+  display: inline;
+  padding: 0 10px 0 10px;
+}
+
+header #branding{
+  float: left;
+  display: inline;
+  min-width: 210px;
+}
+
+header #logo{
+  float: left;
+  margin-right: 10px;
+}
+
+header #logo img{
+  width: 35px;
+}
+
+header #company-name h1{
+  margin: 0px;
+  float: right;
+}
+
+header nav{
+  float: right;
+  margin-top: 10px;
+}
+
+header .highlight, header .current a{
+  color: #e8491d;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+header a:hover{
+  color: #cccccc;
+  font-weight: bold;
+}
+
+/* showcase */
+#showcase{
+  min-height: 200px;
+  background:url('../img/showcase.png') no-repeat;
+  text-align: center;
+  color: #ffffff;
+}
+
+#showcase h1{
+  margin-top: 80px;
+  font-size: 55px;
+  margin-bottom: 10px;
+  color: #f2f20d;
+  background-color: none;
+}
+
+#showcase p{
+  font-size: 20px;
+  text-transform: capitalize;
+}
+
+/* boxes */
+#boxes{
+  margin-top: 20px;
+}
+
+#boxes .box{
+  float: left;
+  text-align: center;
+  width: 30%;
+  padding: 10px;
+}
+
+
+#boxes .box img{
+  width: 90%;
+}
+
+/* customers */
+#customers{
+  margin-top: 20px;
+}
+
+#customers .customer{
+  float: left;
+  text-align: center;
+  width: 30%;
+  padding: 10px;
+}
+
+
+#customers .customer img{
+  width: 90%;
+}
+
+/*sidebar*/
+
+aside#promo-sidebar{
+  float: right;
+  width: 30%;
+  margin-top: 10px;
+}
+
+aside#promo-sidebar a{
+  padding: 10px;
+  text-decoration: none;
+}
+
+aside#promo-sidebar .quote input, aside#promo-sidebar .quote textarea{
+  padding: 5px;
+  width: 90%;
+}
+
+/* main-col*/
+article#promo-main{
+  margin-top: 10px;
+  float: left;
+  width: 60%;
+}
+
+/*services*/
+ul#promo-reason li{
+  list-style: none;
+  padding: 5px;
+  border: #cccccc solid 1px;
+  margin-bottom: 2px;
+  background: #e6e6e6;
+}
+
+/*footer*/
+footer{
+  padding: 5px;
+  text-align: center;
+  background: #e8491d;
+  color: #ffffff;
+}
+
+/* media queries*/
+@media(max-width: 768px){
+  /*header #branding,*/
+  header #logo,
+  header #company-name,
+  header nav,
+  header nav li,
+  #newsletter h1,
+  #newsletter form,
+  #boxes .box,
+  #customers .customer,
+  article#main-col,
+  aside#sidebar{
+    float:none;
+    text-align:center;
+    width:100%;
+  }
+
+  header{
+    padding-bottom: 20px;
+  }
+
+  #showcase h1{
+    margin-top: 40px;
+  }
+  #newsletter button, .quote button{
+    display: block;
+    width: 100%;
+  }
+  #newsletter form input[type="email"], .quote input, .quote textarea{
+    width: 100%;
+    margin-bottom: 5px;
+  }
+}
