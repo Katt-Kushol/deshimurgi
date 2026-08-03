@@ -167,10 +167,18 @@ aside#promo-sidebar a{
   text-decoration: none;
 }
 
-aside#promo-sidebar .quote input, aside#promo-sidebar .quote textarea{
-  padding: 5px;
-  width: 90%;
+aside#types-sidebar{
+  float: right;
+  width: 25%;
+  margin-top: 15px;
 }
+
+aside#types-sidebar img{
+  padding: 0px;
+  width: 70%;
+  float: right;
+}
+
 
 /* main-col*/
 article#promo-main{
@@ -179,10 +187,30 @@ article#promo-main{
   width: 60%;
 }
 
-/*services*/
+article#type{
+  margin-top: 10px;
+  width: 55%;
+  float: left;
+}
+
+
 ul#promo-reason li{
   list-style: none;
   padding: 5px;
+  border: #cccccc solid 1px;
+  margin-bottom: 2px;
+  background: #e6e6e6;
+}
+
+/*types*/
+#type h3{
+  padding: 5px;
+  margin-bottom: -10px;
+}
+
+#type h4{
+  padding: 5px;
+  text-align: right;
   border: #cccccc solid 1px;
   margin-bottom: 2px;
   background: #e6e6e6;
