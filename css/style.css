@@ -175,8 +175,7 @@ aside#types-sidebar{
 
 aside#types-sidebar img{
   padding: 0px;
-  width: 70%;
-  float: right;
+  width: 100%;
 }
 
 
@@ -203,6 +202,10 @@ ul#promo-reason li{
 }
 
 /*types*/
+#types h1{
+  text-align:center;
+}
+
 #type h3{
   padding: 5px;
   margin-bottom: -10px;
@@ -214,6 +217,10 @@ ul#promo-reason li{
   border: #cccccc solid 1px;
   margin-bottom: 2px;
   background: #e6e6e6;
+}
+
+#type p{
+  text-align: justify;
 }
 
 /*footer*/
