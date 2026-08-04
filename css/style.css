@@ -202,8 +202,22 @@ ul#promo-reason li{
 }
 
 /*types*/
+table {
+  width: 100%; /* Required for auto margins to work effectively */
+  margin-left: auto;
+  margin-right: auto;
+}
+
 #types h1{
   text-align:center;
+}
+
+#type td{
+  width: 50%;
+}
+
+#type img{
+  width: 90%;
 }
 
 #type h3{
