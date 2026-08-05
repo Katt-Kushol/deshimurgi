@@ -155,7 +155,6 @@ header a:hover{
 }
 
 /*sidebar*/
-
 aside#promo-sidebar{
   float: right;
   width: 30%;
@@ -178,6 +177,10 @@ aside#types-sidebar img{
   width: 100%;
 }
 
+/* location_map */
+#location_map img{
+  width: 100%;
+}
 
 /* main-col*/
 article#promo-main{
