@@ -257,6 +257,10 @@ table {
   padding-right: 20px;
 }
 
+.type-info h3{
+   text-align: right; /*ইংরেজি নাম ডানপাশে*/
+}
+
 .type-image {
   display: flex;
   flex: 0 1 auto;   /* column width = image width */
