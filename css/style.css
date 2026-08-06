@@ -240,6 +240,36 @@ table {
   text-align: justify;
 }
 
+.type-card {
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  background: white;
+  padding: 10px;
+  margin: auto;
+  margin-bottom: 5px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.type-info {
+  flex: 1;
+  padding-right: 20px;
+}
+
+.type-image {
+  display: flex;
+  flex: 0 1 auto;   /* column width = image width */
+  justify-content: center;
+  align-items: center; /* centers image vertically*/
+}
+
+.type-image img {
+  max-width: 300px;   /* your chosen limit */
+  width: 100%;        /* fill the column */
+  height: auto;       /* maintain aspect ratio */
+}
+
 /*footer*/
 footer{
   padding: 5px;
@@ -285,4 +315,17 @@ footer{
     width: 100%;
     margin-bottom: 5px;
   }
+.type-card {
+      flex-direction: column;
+    }
+.type-info,
+.type-image {
+      flex: none;
+      width: 100%;
+      padding-right: 0;
+    }
+.type-info {
+      margin-bottom: 15px;
+  }
+}
 }
