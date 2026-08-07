@@ -321,6 +321,7 @@ footer{
   }
 .type-card {
       flex-direction: column;
+      width: 95%;
     }
 .type-info,
 .type-image {
