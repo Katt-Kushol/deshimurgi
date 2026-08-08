@@ -241,7 +241,7 @@ table {
 }
 
 .type-card {
-  width: 70%;
+  width: 65%;
   display: flex;
   flex-wrap: wrap;
   background: white;
@@ -269,7 +269,7 @@ table {
 }
 
 .type-image img {
-  max-width: 300px;   /* your chosen limit */
+  max-width: 350px;   /* your chosen limit */
   width: 100%;        /* fill the column */
   height: auto;       /* maintain aspect ratio */
 }
